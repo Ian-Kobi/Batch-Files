@@ -35,3 +35,47 @@ set browser=chrome.exe
 start %browser% -new-tab "https://www.google.com/"
 
 for incognito:
+
+set browser=chrome.exe
+
+start %browser% -incognito "https://www.google.com/"
+
+
+
+To open specific files:
+
+start "" "C:\Users\yourname\filepath"
+
+For example:
+
+start "" "C:\Users\ianko\Desktop\Current Work\Project Documents\Garage.rtf"
+
+
+
+To get .bat files to run in Cortana, you need to take your files and create a shortcut 
+of them by right clicking them and choosing "create shortcut". Then once you have a shortcut
+made, right click the shortcut and choose "properties" and under "start in" paste:
+
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs"
+
+Now that you have a shortcut with the right filepath, it must be moved so you can open it with
+your voice. First you have to show hidden files. Here's how you do that:
+
+https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10
+
+Next, you have to follow this filepath:
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+Drag and drop any of your .bat file shortcuts into the Programs folder and Cortana can 
+open them with your voice.
+
+Fun fact, any file placed in the startup folder will open upon starting your computer.
+
+For example any shortcut placed in this filepath:
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+will open automatically when you start your computer. It works well if you have a certain routine
+or you want google to open when you turn your computer on or whatever. Just make sure you modify 
+your shortcut's "start in" to include the new filepath.
