@@ -4,7 +4,7 @@ I also used these files with Cortana's voice activation feature to launch differ
 "computer modes". These would be for school, work, entertainment, fitness, managing finances,  
 car maintenance, stock trading, crypto trading, programming, etc. Below you'll find instructions to make your own Batch Files if you would like!  
 
-##How to create Batch Files  
+How to create Batch Files  
 
 
 To open apps:
